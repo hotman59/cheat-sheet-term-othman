@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   background-color: rgb(206, 206, 206);
   font-size: 1.2em;
 }
@@ -14,46 +13,66 @@ header h1 {
   margin: auto;
 }
 #nav_term {
-  display: none;
+display: none;
 }
-ul {
+ul{
   list-style-type: none;
 }
-nav {
-  font-style: italic;
-  list-style: none;
+nav{
+font-style: italic;
+list-style: none;
 }
+
 section {
   width: 100%;
-  height: 100%;
   border-radius: 8px;
   background-color: rgb(39, 174, 96);
 }
 #ls_section {
   background-color: rgba(231, 76, 60, 0.5);
+  height: 100%;
+  width: 100%;
 }
 #mkdir_section {
   background-color: rgba(39, 174, 96, 0.5);
+  width: 100%;
+  height: 100%;
 }
 #mv_section {
   background-color: rgba(230, 126, 34, 0.5);
+  height: 100%;
+  width: 100%;
 }
 #cp_section {
   background-color: rgba(142, 68, 173, 0.5);
+  height: 100%;
+  width: 100%;
 }
 #rm_section {
   background-color: rgba(189, 195, 199, 0.5);
+  height: 100%;
+  width: 100%;
 }
 #cat_section {
   background-color: rgba(41, 128, 185, 0.5);
+height: 100%;
+  width: 100%;
+
 }
 #pwd_section {
   background-color: rgba(241, 196, 15, 0.5);
+  height: 100%;
+  width: 100%;
 }
 li {
   margin-bottom: 4px;
   margin-top: 14px;
   font-size: 25px;
+}
+p{
+  margin-bottom: 4px;
+  margin-top: 14px;
+  font-size: 1.2em;
 }
 code {
   color: rgb(75, 0, 130);
