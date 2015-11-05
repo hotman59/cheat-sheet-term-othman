@@ -26,9 +26,14 @@ header h1 {
 }
 nav{
 font-style: italic;
-
+list-style-type: none;
 }
 
+p{
+font-size: 1.4em;
+font-family: fantasy;
+
+}
 section {
   width: 100%;
   height: 400px;
