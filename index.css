@@ -1,18 +1,20 @@
+/*page dorigine  page mobile sur le fichier mobilefirt.css*/
+
 body {
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(206, 206, 206); /* couleur de fond et la taille d ecriture de toute la page*/
   font-size: 1.2em;
 }
 header {
-  background-color: rgb(142, 162, 198);
+  background-color: rgb(142, 162, 198); /* taille,coin arrondi et couleur de font du haut la page*/
   height: 100px;
   border-radius: 8px;
 }
-header h1 {
+header h1 {         /* taille et cadrement du titre*/
   border: 100px;
   width: 300px;
   margin: auto;
 }
-#nav_term {
+#nav_term {        /* configuration du tableau de navigation */
   background-color: rgba(187, 174, 152, 0.5);
   margin-left: 85%;
   font-size: 0.9em;
@@ -20,7 +22,6 @@ header h1 {
   color: black;
   position: fixed;
   width: 200px;
-/*  border: 4px solid red;*/
   border-radius: 8px;
   font-weight: bold;
 }
@@ -34,6 +35,7 @@ p{
   font-size: 1.4em
 
 }
+/*configuration global  des section et personnalisation des section pour chaque commande*/
 section {
   width: 100%;
   height: 400px;
@@ -61,7 +63,7 @@ section {
 #pwd_section {
   background-color: rgba(241, 196, 15, 0.5);
 }
-
+/* personnalisez les commande*/
 code {
   color: rgb(75, 0, 130);
   border-radius: 8px;
@@ -81,6 +83,7 @@ h2 {
   font-weight: bold;
 }
 
+/* la banniere du bas*/
 footer {
   background-color: rgb(142, 162, 198);
   height: 100px;

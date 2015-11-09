@@ -1,3 +1,5 @@
+/* en mobile*/
+
 body {
   background-color: rgb(206, 206, 206);
 }
@@ -11,16 +13,21 @@ header h1 {
   width: 300px;
   margin: auto;
 }
+
+/* disparition de la navifation*/
+
 #nav_term {
-display: none;
+  display: none;
 }
-ul{
+ul {
   list-style-type: none;
 }
-nav{
-font-style: italic;
-list-style: none;
+nav {
+  font-style: italic;
+  list-style: none;
 }
+
+/* reduction des section pour adapter sur mobile*/
 
 section {
   width: 100%;
@@ -56,24 +63,15 @@ section {
 }
 #cat_section {
   background-color: rgba(41, 128, 185, 0.5);
-height: 100%;
+  height: 100%;
   width: 100%;
-
 }
 #pwd_section {
   background-color: rgba(241, 196, 15, 0.5);
   height: 100%;
   width: 100%;
 }
-/*
-li {
-  margin-left: 0px;
-  margin-bottom: 4px;
-  margin-top: 14px;
-  font-size: 25px;
-}
-*/
-p{
+p {
   font-family: fantasy;
   font-size: 1em;
   margin-bottom: 4px;
@@ -94,14 +92,6 @@ h2 {
   border-radius: 8px;
   font-weight: bold;
 }
-
-/*#ls_section{
-  width: 100%;
-  height: 200px;
-  border: 2px solid black;
-}
-*/
-
 footer {
   background-color: rgb(142, 162, 198);
   height: 100px;
